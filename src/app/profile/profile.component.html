@@ -1,0 +1,13 @@
+<mat-card>
+  <div class="alert alert-success">
+    Profile Component
+  </div>
+
+  <div class="alert alert-warning" *appUser>
+    User Authorized Content
+  </div>
+
+  <div class="alert alert-danger" *appUserRole="[ Role.Admin ]">
+    Admin Authorized content
+  </div>
+</mat-card>
